@@ -3,16 +3,37 @@ html, body{
 }
 
 header{
-    height: 10%;
+    height: 8%;
     border: 1px black solid;
+    background-color: crimson;
 }
 
 main{
     height:80%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    /* background-color: aqua; */
+}
+section{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+} 
+
+.left{
+    border: 1px black solid;
+
+    text-align: center;
+    
+}
+
+.middle{
     border: 1px black solid;
 }
 
+
+
 footer{
-    height:10%;
+    height:8%;
     border: 1px black solid;
 }
